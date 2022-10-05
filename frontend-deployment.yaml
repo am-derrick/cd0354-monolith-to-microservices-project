@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ampire90/udagram-frontend:v8
+          image: ampire90/udagram-frontend:10
           imagePullPolicy: Always
           ports:
             - containerPort: 80
